@@ -1,0 +1,63 @@
+.cprimary{
+    background-color: #89B5AF
+}
+
+.csecondary{
+    background-color: #D0CAB2;
+}
+.filtro{
+    background-color: #96C7C1;
+}
+
+.boton{
+    background-color: #DED9C4;
+}
+
+.image-fondo{
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+.image-fondo-2{
+    background-image: url("../img/background2.jpg");
+    background-size: cover;
+}
+
+
+.table{
+    background-color: white;
+}
+
+.logo{
+    height: 70px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.redes-sociales > ul > li > a{
+    color: white;
+}
+
+.redes-sociales > ul > li > a > img{
+    width: 40px;
+    height: auto;
+}
+
+.redes-sociales > ul{
+    list-style: none;
+}
+
+.redes-sociales > ul > li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.redes-sociales{
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* corrige flecha de dropdown para div de bienvenida en navbar */
+.dropdown-toggle::after {
+    margin-top: -10px;
+}
